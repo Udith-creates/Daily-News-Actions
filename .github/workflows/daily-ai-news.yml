@@ -2,8 +2,8 @@ name: Daily AI News Update
 
 on:
   schedule:
-    - cron: '30 10 * * *' # Runs at 4:00 PM IST daily
-  workflow_dispatch: # Allows you to run it manually from the Actions tab
+    - cron: '30 10 * * *' # Triggers at 4:00 PM local time
+  workflow_dispatch:
 
 jobs:
   update-readme:
@@ -11,10 +11,10 @@ jobs:
     
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4 # FIXED: Upgraded to v4
 
     - name: Set up Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5 # FIXED: Upgraded to v5
       with:
         python-version: '3.10'
 
@@ -27,7 +27,13 @@ jobs:
     - name: Commit and push changes
       run: |
         git config --global user.name "github-actions[bot]"
-        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git add README.md
-        git commit -m "docs: Update daily AI news" || exit 0
-        git push
+        
+        # FIXED: Checks if the file actually changed before trying to commit
+        if git diff-index --quiet HEAD; then
+          echo "No new news today. Skipping commit."
+        else
+          git commit -m "docs: Update daily AI news"
+          git push
+        fi
