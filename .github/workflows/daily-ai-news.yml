@@ -1,0 +1,33 @@
+name: Daily AI News Update
+
+on:
+  schedule:
+    - cron: '30 10 * * *' # Runs at 4:00 PM IST daily
+  workflow_dispatch: # Allows you to run it manually from the Actions tab
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    - name: Install dependencies
+      run: pip install feedparser
+
+    - name: Run update script
+      run: python update_ai_news.py
+
+    - name: Commit and push changes
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git add README.md
+        git commit -m "docs: Update daily AI news" || exit 0
+        git push
