@@ -1,2 +1,765 @@
-# Daily-News-Actions
-For everyday commits
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
+
+*(Last updated: June 18, 2026)*
+
+- [Towards autonomous medical artificial intelligence agents - Nature](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XYlNlQTFZYmI0QUc5c1hrZTVNWFVUVHAyOHJodDFZN2thU1dxR2tDMWtWU1hzQUkwWGRtMHhaUk5oTjdIYWg0bGNlWHZwYWVkV3Nqdi0zd0ZqNHV0aFJB?oc=5)
+- [Context intelligence for your data and AI agents at scale - Amazon Web Services](https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUVneXVlSGUzcHA3Ri1GblNHVFFvVGlsdV9XaXQ1cnZfM2M3YW1lV3lHNmZpQzlfd01JUVhkcmdKdDdrYllvTDhIUGNCUWRBTFdEclYyWFdaTFRnc1RaSDBQT1JJd3BVNkJYVGIxcXFwUy1KRFVLOUxTTkVMdjNGcFpNbDhqWURCemlTOEk4SjJ6ckVRek1qZzhUZ2o3Uk1NT04yZ3hQOA?oc=5)
+- [Bernie Sanders pitches $1,000 annual payout from public ownership of AI - The Washington Post](https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWh3R2pldGFITk9ReUVuUHExd3FPNHg5eTR5dDZxU3JabkN0SjBOZnEtdjgxbm5rRlNhSU9LU2pjMzBjeG1TV2VuRlg3bEZBb0tJcUlLa3BUSkJFU1BnejVmWkNNTGZKRnNWR19KdTVmRWVmendEc1VSTnlYdmxFZG1oNGNQeWVxOElXYVo4aHdFdTJQUTVQb0NlRG9ydHpDMy1LcTZwai1yejlpZFFFWg?oc=5)
+- [Anthropic Employees Accuse Trump Administration of Targeting Them - The New York Times](https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0NMMk1ub190RVVrVVVjZGVLbnQ4NjBVU3o1dldaTDBIQzNrNERRWUJyWlU2dUl3UWtHVHdPNTRhdEdibmI4Nmx2eVJjR3F3UFNUcDlXQUJ5dlZqRzhzS09QUE1xN3p2MzdEUDBhdXRpbTVKYmhYZHp4MlVCWDdac01kelRSdkE1QnVpb3FSQUs?oc=5)
+- [‘AI slop’ resolution seeks to reel-in city’s use of artificial intelligence - AJC.com](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTUZCOE9qc1VhT1BXMUJ5ekloLWRZM09FZWZlNjJMX0N3TjhWWWJxTFlFdGtEYm55elN6VHJMVDcyNmxYeGk0SEJpRzBwaWphU2w4Wk5lZXRJZXhXNm9oLVp3MHNZUjRQbmx0X0poaHpUZWw2SjNOWWkyLXFBYWJIYlFKY3o5NE5JTXdhWFZUSnVXM0d1S3hXU1Y2RmQxRjFmWkRncmxTazVjUQ?oc=5)
+
